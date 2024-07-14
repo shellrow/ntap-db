@@ -1,8 +1,8 @@
 [package]
 name = "ntap-db-udp-service"
-version = "0.4.0"
+version.workspace = true
 edition = "2021"
-authors = ["shellrow <shellrow@fortnium.com>"]
+authors.workspace = true
 repository = "https://github.com/shellrow/ntap-db"
 documentation = "https://github.com/shellrow/ntap-db"
 readme = "README.md"
@@ -10,8 +10,8 @@ license = "MIT"
 description = "ntap-db-udp-service"
 
 [dependencies]
-serde = { version = "1.0", features = ["derive"] }
-bincode = "1.3"
+serde = { workspace = true }
+bincode = { workspace = true }
 
 [features]
 default = ["bundle"]
