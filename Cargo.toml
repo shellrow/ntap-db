@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "oui",
+    "ipv4-asn", 
+    "ipv4-country", 
+    "ipv6-asn", 
+    "ipv6-country", 
+    "tcp-service", 
+    "udp-service", 
+    "as", 
+    "country", 
+]
